@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+}
+
+header h1 {
+    background-color: aqua;
+    margin: 0;
+    text-align: center;
+    padding: 0.25rem 0rem 0.25rem 0rem;
+}
+
+.navigatie {
+    background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+    text-align: center;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.navigatie a {
+    margin-right: 1rem;
+    font-size: 1.25em;
+    color: black;
+    background-color: blue;
+    border: solid 0.05em;
+    padding: 0.45rem 0.5rem 0.45rem 0.5rem;
+}
+
+.navigatie a:hover {
+    background-color: blueviolet;
+    border: solid 0.05em;
+
+}
+
+main {
+    margin-left: 1rem;
+    margin: auto 100px;
+    /* text-align: center; */
+}
+
+.body {
+    background-color: grey;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+.body-1 {}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.knop a {
+    background-color: blue;
+    color: black;
+    border: 0;
+    padding: 0rem 0.5rem 0rem 0.5rem;
+    font-size: 1.25rem;
+}
+
+.knop a:hover {
+    background-color: pink;
+    color: black;
+    border: 0;
+}
+footer{
+    margin: auto 100px;
+}
