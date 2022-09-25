@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background-color: lightblue;
+}
+
+header h1 {
+    background-color: aqua;
+    margin: 0;
+    text-align: center;
+    padding: 0.25rem 0rem 0.25rem 0rem;
+}
+
+.navigatie {
+    background-color: rgb(76, 0, 255);
+    text-align: center;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.navigatie a {
+    margin-right: 1rem;
+    font-size: 1.25em;
+    color: black;
+    background-color: rgb(54, 54, 241);
+    border: solid 0.05em;
+    padding: 0.45rem 0.5rem 0.45rem 0.5rem;
+    font-weight: bolder;
+}
+
+.navigatie a:hover {
+    background-color: blueviolet;
+    border: solid 0.05em;
+
+}
+
+main {
+    margin-left: 1rem;
+    margin: auto;
+    width: 40vw;
+    /* text-align: center; */
+}
+
+.body {
+    background-color: rgb(138, 120, 120);
+    border-radius: 0.25rem;
+    padding: 1rem;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+.body-1  {
+    text-align: center;
+}
+.body-1 img{
+    width: 80%;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+
+footer{
+    margin: auto 100px;
+}
