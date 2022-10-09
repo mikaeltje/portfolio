@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: lightslategrey;
+    background-color: rgb(37, 37, 92);
 }
 
 header h1 {
@@ -33,7 +33,7 @@ header h1 {
 cursor: pointer;
 }
 nav {
-    background-color: white;
+    background-color: rgb(73, 56, 56);
 }
 
 nav a {

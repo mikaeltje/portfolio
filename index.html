@@ -5,25 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
+    <link id="pagestyle" rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="css/mobile.css">
+
+
 
     <title>Portfolio</title>
 </head>
 
 <body>
+    <script>
+        function swapstylesheet(sheet) {
+            document.getElementById('pagestyle').setAttribute('href', sheet);
+        }
+    </script>
     <header>
+
+        <section class="logo-navigation">
+            <img src="img/foto-1.jpg" alt="" loading="lazy">
+            <nav class="navigatie">
+                <a href="#mijnhobby's">Mijn hobby's</a>
+                <a href="#leren">Leren</a>
+                <a onclick="swapstylesheet('css/darkTheme.css')" href="#">dark</a>
+                <a onclick="swapstylesheet('css/index.css')" href="#">normal</a>
+
+            </nav>
+
+        </section>
         <h1 id="test"> PortfolioWebsite Mikael</h1>
+
     </header>
-    <nav class="navigatie">
-        <a href="#mijnhobby's">Mijn hobby's</a>
-        <a href="#leren">Leren</a>
-    </nav>
     <main>
-        <section>
+        <section class="top">
             <div class="body">
                 <div class="body-1">
                     <h2>Welkom, mijn naam is Mikael</h2>
-                    <p>Ik ben Mikael ik ben 19 jaar oud en ik woon in spijkenisse. ik heb op de ring van putten mijn mavo diploma gehaald.</p>
+                    <p>Ik ben Mikael ik ben 19 jaar oud en ik woon in spijkenisse. ik heb op de ring van putten mijn
+                        mavo diploma gehaald.</p>
                     <img src="img/foto-1.jpg" alt="">
                     <h2 id="mijnhobby's">Mijn hobby's</h2>
                     <p> Mijn hobbies zijn: waterpolo spelen en naar de sportschool gaan en af en toe gamen</p>
@@ -36,19 +54,66 @@
             </div>
             <div class="body">
                 <div class="body-1">
-                    <h3 id="leren">Wat ik wil leren</h3>
-                    <p>Ik zou graag mijn kennis die ik al heb willen vergroten en tailwind css willen leren.</p>
-                    <p><a href="https://instagram.com">insta</a></p>
-                    <p><a href="https://linkedin.com">linkedin</a></p>
+                    <section class="box-container">
+                        <div class="box one">
+                            <section class="card">
+                                <h2 class="name">Mark Muller</h2>
+                                <section>
+                                    <img class="profile-picture" src="https://thispersondoesnotexist.com/image"
+                                        alt="Photo Mark Muller" />
+                                </section>
+                                <section class="skills">
+                                    <h3>Skills</h3>
+                                    <ul>
+                                        <li>HTML & CSS</li>
+                                        <li>Javascript</li>
+                                        <li>Nederlands</li>
+                                    </ul>
+                                </section>
+                                <section class="contact">
+                                    <a href="mailto:m.muller@hr.nl" target="_blank">m.muller@hr.nl</a>
+                                </section>
+                            </section>
+                        </div>
+                        <div class="box two">
+                            <section class="card">
+                                <h2 class="name">Mark Muller</h2>
+                                <section>
+                                    <img class="profile-picture" src="https://thispersondoesnotexist.com/image"
+                                        alt="Photo Mark Muller" />
+                                </section>
+                                <section class="skills">
+                                    <h3>Skills</h3>
+                                    <ul>
+                                        <li>HTML & CSS</li>
+                                        <li>Javascript</li>
+                                        <li>Nederlands</li>
+                                    </ul>
+                                </section>
+                                <section class="contact">
+                                    <a href="mailto:m.muller@hr.nl" target="_blank">m.muller@hr.nl</a>
+                                </section>
+                            </section>
+                        </div>
+                    </section>
+                    <div class="learning">
+                        <h3 id="leren">Wat ik wil leren</h3>
+                        <p>Ik zou graag mijn kennis die ik al heb willen vergroten en tailwind css willen leren.</p>
+                        <p><a href="https://instagram.com">insta</a></p>
+                        <p><a href="https://linkedin.com">linkedin</a></p>
+                    </div>
+                    
                 </div>
             </div>
         </section>
+
     </main>
     <footer>
         <div class="body">
             footer
         </div>
     </footer>
+
 </body>
 
 </html>
