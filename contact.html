@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="pagestyle" rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="css/mobile.css">
+
+
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <script>
+        function swapstylesheet(sheet) {
+            document.getElementById('pagestyle').setAttribute('href', sheet);
+        }
+    </script>
+    <header>
+
+        <section class="logo-navigation">
+            <img src="img/foto-1.jpg" alt="" loading="lazy">
+            <nav class="navigatie">
+                <a href="index.html">Portfolio</a>
+                <a href="#leren">Leren</a>
+                <a href="contact.html">contact</a>
+                <a onclick="swapstylesheet('css/darkTheme.css')" href="#">dark</a>
+                <a onclick="swapstylesheet('css/index.css')" href="#">normal</a>
+
+            </nav>
+
+        </section>
+        <h1 id="test"> PortfolioWebsite Mikael</h1>
+
+    </header>
+    <main>
+        <section class="top">
+            <div class="body">
+                <div class="body_1">
+                    <div class="contact-form">
+                        <h2>Contact</h2>
+                        <div class="form-1">
+                            <div class="form-2">
+                                <form action="#">
+                                    <div class="form-ruimte">
+                                        <div class="form-space">
+                                            <label for="name">Naam</label>
+                                            <input type="text" name="name" required>
+                                        </div>
+                                        <div class="form-space">
+                                            <label for="email">Email</label>
+                                            <input type="email" name="email" required>
+                                        </div>
+                                        <div class="form-space">
+                                            <label for="subject">Onderwerp</label>
+                                            <input type="subject" name="subject" required>
+                                        </div>
+                                    </div>
+                                    <div class="button">
+                                        <button class="button_1">submit</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="body">
+            <a href="https://instagram.com">insta</a>
+            <a href="https://linkedin.com">linkedin</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
