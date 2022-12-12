@@ -39,7 +39,7 @@ nav {
 nav a {
     text-decoration: none;
     color: #000;
-    font-size: large;
+    font-size: 1.2em;
     font-weight: bold;
     padding: 0.5rem;
     display: inline-block;  
@@ -175,21 +175,21 @@ h3 {
 .learning{
     margin-top: 1rem;
 }
+.learning p{
+    font-size: 1em;
+}
+.learning h3{
+    font-size: 1.5em;
+}
+
 .contact-form{
     margin-top: 1rem;
     color: black;
     
 }
-.contact-form h2{
-    color: black;
-    font-size: xx-large;
-}
-.form-1{
-    background-color: white;
-}
 .form-2{
     /* margin: auto 3rem; */
-    font-size: large;
+    font-size: 2em;
     padding: 1rem;
 }
 .form-2 input{
