@@ -3,13 +3,34 @@
  * License https://froala.com/wysiwyg-editor/terms/
  * Copyright 2014-2021 Froala Labs
  */
+ .goed{
+  align-content: left;
+  width: 400px;
+  margin-top: -7rem !important;
+  margin-left: 6rem;
+ }
 
 .mt-5{
-  margin-top: 5rem;
+  margin-top: 5rem ;
+}
+
+.mt-5_i{
+  margin-top: -2rem !important;
+}
+.mt-3{
+  padding-top: 3rem !important;
+}
+.mt--3{
+  padding-top: -6rem !important;
+
 }
 .ml-5{
   margin-left: 5em;
   font-weight: bold	  ;
+}
+.mb-5   {
+  margin-bottom: 5rem !important;
+
 }
 
 .sticky {
